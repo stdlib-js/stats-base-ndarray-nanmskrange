@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import nanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmskrange@deno/mod.js';
+import nanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmskrange@v0.1.0-deno/mod.js';
 ```
 
 #### nanmskrange( arrays )
@@ -100,7 +100,7 @@ import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import nanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmskrange@deno/mod.js';
+import nanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-nanmskrange@v0.1.0-deno/mod.js';
 
 var xbuf = uniform( 10, -50.0, 50.0, {
     'dtype': 'generic'
